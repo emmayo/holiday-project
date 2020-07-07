@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mdb.lite.css"> --> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	
+    <title>Holiday Project</title>
+</head>
+<body>
+    <div class="container mt-4">
+		<h1 class="display-4 text-center">
+		   <i class="fas fa-home"></i>
+		   GROCIERIES <span class="text-info">STORE</span>	
+		</h1>
+		<form id="grocieries-form">
+			<div class="form-group">
+				<label for="Name_of_Item">Name of Item</label>
+				<input type="text" id="Name_of_Item" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="price">Price</label>
+				<input type="text" id="price" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="quantity">Quantity</label>
+				<input type="text" id="quantity" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="category">Category</label>
+				<input type="text" id="category" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="quantitySold">Quantity Sold</label>
+                <input type="text" id="quantitySold" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="quantityLeft">Quantity Left</label>
+                <input type="text" id="quantityLeft" class="form-control">
+            </div>
+			<button type="submit" class="btn btn-info btn-block">
+				Add Item
+			</button>
+		</form>
+		<table class="table table-striped mt-5">
+			<thead>
+				<tr>
+					
+					<th>Name of Item</th>
+					<th>Price</th>
+					<th>Quantity</th>
+                    <th>Category</th>
+                    <th>Quantity Sold</th>
+                    <th>Quantity Left</th>
+				</tr>
+			</thead>
+			<tbody id="grocieries">
+				
+			</tbody>
+		</table>
+    </div>
+    <script src="index.js"></script>  
+</body>
+</html>
